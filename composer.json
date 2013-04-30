@@ -1,0 +1,19 @@
+{
+	"name": "adrianhardy/zf2bindexample",
+	"minimum-stability": "stable",
+	"description": "An example of form binding in ZF2 which makes use of related objects",
+	"homepage": "http://github.com/adrianhardy/",
+	"require": {
+		"php": ">=5.3.3",
+		"zendframework/zendframework": "2.1.*",
+		"zendframework/zftool": "dev-master",
+		"zendframework/zend-developer-tools": "dev-master",
+		"twitter/bootstrap": "dev-master",
+		"neilime/zf2-twb-bundle": "dev-master"
+	},
+	"autoload": {
+		"psr-0": {
+			"Application": "module/Application/src"
+		}
+	}
+}

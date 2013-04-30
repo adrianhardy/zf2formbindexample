@@ -1,0 +1,9 @@
+<?php
+
+foreach ($this->messages as $message) {
+	echo $this->alert($message,"alert-success", true);
+}
+
+$this->form->prepare();
+echo $this->form($form);
+
